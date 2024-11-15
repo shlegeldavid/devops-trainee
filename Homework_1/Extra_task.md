@@ -68,7 +68,7 @@ rm -rf initramfs-5.4.17-2136.310.7.1.el8uek.x86_64.img
 
    ```bash
    dnf update
-   dnf install kernel-5.4.17
+   dnf install kernel-uek
    reboot
    ```
    Заходим под родненьким ранее удаленным ядром и система успещно восстановлена.
